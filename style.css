@@ -1,6 +1,8 @@
 body{
-    background: #d2ecec;
+    background-image: url(../images/globe.jpg);
+    background-size: cover;
     font-family: sans-serif;
+    color: rgb(49, 69, 110);
 }
 .title{
     text-align: center;
@@ -10,19 +12,21 @@ body{
 
 .container{
     max-width: 600px;
-    margin: 80px auto;
-    background: white;
+    margin: 200px auto;
+    background: rgb(220, 235, 245);
     padding: 30px;
     /* margin: 60px 0 ; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
+    border: solid 5px goldenrod;
 }
 
 select{
     width: 100%;
-    padding: 10px;
+    padding: 10px ;
     border-radius: 4px;
     font-size: 18px;
+    border: none;
 }
 
 .city{
@@ -44,7 +48,7 @@ select{
 
 small {
     vertical-align: middle;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 36px;
 }
 
@@ -54,15 +58,23 @@ small {
 }
 
 .date{
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 footer{
     text-align: center;
     font-size: 18px;
     color: rgba(0,0,0,0.8);
-
+    color: whitesmoke;
 }
 a{
 text-decoration: none;
+color: goldenrod;
 }
+.back-btn {
+    margin-top: 50px ;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
