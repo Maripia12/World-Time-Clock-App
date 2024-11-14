@@ -1,10 +1,68 @@
 body{
     background: #c9e4e4;
+    font-family: sans-serif;
 }
 .title{
     text-align: center;
-}
-footer{
-    text-align: center;
+    font-family: sans-serif;
+    font-size: 36px;
 }
 
+.container{
+    max-width: 600px;
+    margin: 80px auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    /* margin: 60px 0 ; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.city{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px 0 ;
+    border-bottom: 1px dashed rgba(0,0,0,0.2);
+}
+
+.city:last-child {
+     border: none;
+}
+
+.time{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+small {
+    vertical-align: middle;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.city-name{
+    margin: 0 0 5px;
+    font-size:28px
+}
+
+.date{
+    opacity: 0.7;
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0,0,0,0.8);
+
+}
+a{
+text-decoration: none;
+}
