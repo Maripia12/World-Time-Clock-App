@@ -1,5 +1,5 @@
 body{
-    background: #c9e4e4;
+    background: #d2ecec;
     font-family: sans-serif;
 }
 .title{
@@ -11,7 +11,7 @@ body{
 .container{
     max-width: 600px;
     margin: 80px auto;
-    background-color: whitesmoke;
+    background: white;
     padding: 30px;
     /* margin: 60px 0 ; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
