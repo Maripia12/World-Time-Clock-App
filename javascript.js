@@ -1,29 +1,31 @@
 // alert('hello')
-function updatedCity (event){
-
-   let cityTimeZone = event.target.value 
-   console.log(cityTimeZone)
-   let cityTime = moment().tz(cityTimeZone)
-   let citiesElement = document.querySelector("#cities")
-   let cityName = cityTimeZone.replace("_"," ").split("/")[1]
-   citiesElement.innerHTML = 
-   `<div class="city">
+function updatedCity(event) {
+   if(event.target.value.length > 0){ 
+  let cityTimeZone = event.target.value;
+  console.log(cityTimeZone);
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+    console.log(cityTimeZone);
+  }
+  let cityTime = moment().tz(cityTimeZone);
+  let citiesElement = document.querySelector("#cities");
+  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+  citiesElement.innerHTML = `<div class="city">
         <div>
           <h2 class="city-name">${cityName}</h2>
           <div class="date">${cityTime.format("MMMM Do, YYYY")}</div>
         </div>
-        <div class="time">${cityTime.format("h:mm:ss")}<small>${cityTime.format("A")}</small></div>
+        <div class="time">${cityTime.format("h:mm:ss")}<small>${cityTime.format(
+    "A"
+  )}</small></div>
       </div>
       `;
-
+    }
 }
 
-let selectedCityElement = document.querySelector("#citySelected")
+let selectedCityElement = document.querySelector("#citySelected");
 
-selectedCityElement.addEventListener('change', updatedCity)
-
-
-
+selectedCityElement.addEventListener("change", updatedCity);
 
 // function updateTime() {
 //   let losAngelesElement = document.querySelector("#los-angeles");
