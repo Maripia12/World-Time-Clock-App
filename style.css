@@ -1,82 +1,80 @@
-body{
-    background-image: url(../images/globe.jpg);
-    background-size: cover;
-    font-family: sans-serif;
-    color: rgb(49, 69, 110);
+body {
+  background-image: url(../images/globe.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  color: rgb(49, 69, 110);
 }
-.title{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 36px;
-    text-shadow: 2px 4px 4px rgb(46 91 173 / 0.6);
-}
-
-.container{
-    max-width: 600px;
-    margin: 200px auto;
-    background: rgb(138, 165, 184);
-    padding: 30px;
-    /* margin: 60px 0 ; */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    border: solid 5px goldenrod;
+.title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+  text-shadow: 2px 4px 4px rgb(46 91 173 / 0.6);
 }
 
-select{
-    width: 100%;
-    padding: 10px ;
-    border-radius: 4px;
-    font-size: 18px;
-    border: none;
+.container {
+  max-width: 600px;
+  margin: 200px auto;
+  background: rgb(138, 165, 184);
+  padding: 30px;
+  /* margin: 60px 0 ; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  border: solid 5px goldenrod;
 }
 
-.city{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    padding: 20px 0 ;
-    border-bottom: 1px dashed rgba(0,0,0,0.2);
-    text-shadow: 2px 4px 4px rgb(46 91 173 / 0.6);
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  border: none;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 4px 4px rgb(46 91 173 / 0.6);
 }
 
 .city:last-child {
-     border: none;
+  border: none;
 }
 
-.time{
-    font-size: 48px;
-    font-weight: bold;
+.time {
+  font-size: 48px;
+  font-weight: bold;
 }
 
 small {
-    vertical-align: middle;
-    font-size: 18px;
-    line-height: 36px;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 36px;
 }
 
-.city-name{
-    margin: 0 0 5px;
-    font-size:28px
+.city-name {
+  margin: 0 0 5px;
+  font-size: 28px;
 }
 
-.date{
-    opacity: 0.8;
+.date {
+  opacity: 0.8;
 }
 
-footer{
-    text-align: center;
-    font-size: 18px;
-    color: rgba(0,0,0,0.8);
-    color: whitesmoke;
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
 }
-a{
-text-decoration: none;
-color: goldenrod;
+a {
+  text-decoration: none;
+  color: goldenrod;
 }
 .back-btn {
-    margin-top: 50px ;
-    cursor: pointer;
-    font-weight: 600;
-    
+  margin-top: 50px;
+  cursor: pointer;
+  font-weight: 600;
 }
-
