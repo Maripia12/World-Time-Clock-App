@@ -34,13 +34,14 @@ function updatedCity(event) {
     
       `;
     }
+    
 
 }
+
 
 let selectedCityElement = document.querySelector("#citySelected");
 
 selectedCityElement.addEventListener("change", updatedCity);
-
 
 
 function updateTime() {
@@ -71,5 +72,7 @@ function updateTime() {
 
 
 
-setInterval(updateTime, 1000);
+setInterval(updateTime, 1);
+
+
 
